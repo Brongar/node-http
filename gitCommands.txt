@@ -1,0 +1,41 @@
+Comandos basicos do git
+
+## Inicia o repositorio
+git init
+
+Verifica status do repositorio
+git status
+
+## Adiciona toda pasta local para o repositorio
+git add .
+
+## Envia um commit
+git commit -m "Primeiro commit"
+
+## Exibe o historico de commits (uma linha só)
+git log --oneline
+
+## Retorna para um arquivo anterior
+git checkout <commit> <file>
+
+## Reseta o status atual (cancela o commit em andamento)
+git reset HEAD index.html
+
+##  Reseta um determinado arquivo para sua versão anterior
+git reset <file>
+
+## Reseta todos os arquivos modificados para a versão anterior
+git reset
+
+## Restaura um determinado arquivo 
+git restore <file>
+
+## adicionar repositorio online
+git remote add origin <https>
+
+## Empurra a o caralhão local para o ramo principal
+git push -u origin master
+
+## Clona um repositorio existente
+git clone <https>
+
